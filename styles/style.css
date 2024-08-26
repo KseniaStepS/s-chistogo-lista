@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+body {
+  margin: auto auto;
+  background-color: #1e1e1e;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #f5f5f5;
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Impact', 'Charcoal', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+header {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+  width: 360px;
+  padding: 24px 20px;
+}
+
+.header_logo {
+  width: 78.453px;
+  height: 15.432px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75px;
+  gap: 12px;
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Impact', 'Charcoal', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.header_menu_link {
+  text-decoration: none;
+  color: #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+/* Блок с заголовком статьи.
+Изображение под заголовком страницы */
+.cover_title {
+  position: relative;
+  margin: 7px 0 30px 20px;
+  width: 340px;
+  flex-shrink: 0;
+}
+
+.cover {
+  background-image: url('../images/cover.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+h1 {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  margin: 0 20px 5px 0;
+  font-family: 'EB Garamond', 'Times New Roman', 'Times', 'MS Serif', 'New York serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_right {
+  text-align: right;
+}
+
+/* Первый блок с текстом */
+.content_section_theme_dark {
+  margin: 0 20px 38px;
+  gap: 24px;
+  display: inline-flex;
+  height: 453px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  color: #f5f5f5;
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Impact', 'Charcoal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 135%;
+}
+
+.intro_heading {
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #ccc;
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Impact', 'Charcoal', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+time {
+  white-space: nowrap;
+}
+
+/* Второй, желтый блок с текстом */
+.content_section_theme_bright {
+  background-color: #fee42a;
+  display: inline-flex;
+  padding: 40px 20px;
+  flex-direction: column;
+  gap: 32px;
+  flex-shrink: 0;
+  color: #131313;
+}
+
+h2 {
+  font-family: 'EB Garamond', 'Times New Roman', 'Times', 'MS Serif', 'New York serif', serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.content_section_introduction {
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Impact', 'Charcoal', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+ul {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding-left: 14px;
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight:700;
+}
+
+/* третий блок, с карточками */
+.cards_list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 40px 20px 60px;
+}
+
+h3 {
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Impact', 'Charcoal', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+h4 {
+  font-family: 'EB Garamond', 'Times New Roman', 'Times', 'MS Serif', 'New York serif', serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.card {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 319px;
+  padding: 20px;
+  gap: 8px;
+  background-color: #343434;
+  border-radius: 30px;
+}
+
+.yellow_card {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* подвал страницы */
+footer {
+  width: 360px;
+  color: #f5f5f5;
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fee42a;
+}
+
+.footer_links {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Impact', 'Charcoal', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
