@@ -1,2 +1,2 @@
-Первая проектная работа в практикуме
 Ссылка на макет:
+https://kseniasteps.github.io/s-chistogo-lista.io/
